@@ -1,58 +1,63 @@
 :root {
-    --main-white: #f0f0f0;
-    --main-blue: #0852ff;
-  }
+  --main-white: #f0f0f0;
+  --main-blue: #0852ff;
+}
 
-  * {
-    margin: 0;
-    padding: 0;
-  }
-  html{
-    font-size: 62.5%;
-    display: block;
+* {
+  margin: 0;
+  padding: 0;
 }
-body{
-    background-image: url("https://c.pxhere.com/photos/7a/e0/audience_band_concert_crowd_dancing_festival_lights_live-1563105.jpg!d");
-    height: 100vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+html {
+  font-size: 62.5%;
+  display: block;
 }
-.title{
-text-align: center;
-padding-top: 20rem;
-color: var(--main-white);
-font-size: 7rem;
-font-family: 'Rock 3D', cursive;
+body {
+  background-image: url('https://c.pxhere.com/photos/7a/e0/audience_band_concert_crowd_dancing_festival_lights_live-1563105.jpg!d');
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.content{
-    display: flex;
-    justify-content: center;
-    padding-top: 15rem;
+.title {
+  text-align: center;
+  padding-top: 20rem;
+  color: var(--main-white);
+  font-size: 7rem;
+  font-family: 'Rock 3D', cursive;
 }
-.keys{
-    border: 4px solid black;
-    border-radius: 5px;
-    margin: 1rem;
-    color: var(--main-white); 
-    padding: 5rem;
-    width: 100px;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.5);
-    transition: all 0.07s;
-    box-shadow: 0 0 5px black;
+.content {
+  display: flex;
+  justify-content: center;
+  padding-top: 15rem;
 }
-.keys kbd{
-    font-size: 3rem;
+.keys {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid black;
+  border-radius: 5px;
+  margin: 1rem;
+  color: var(--main-white);
+  /* padding: 5rem; */
+  width: 200px;
+  height: 70px;
+  text-align: center;
+  background-color: rgba(110, 110, 110, 0.5);
+  transition: all 0.07s;
+  box-shadow: 0 0 5px black;
 }
-.keys h2{
-    font-size: 3rem;
+.keys kbd {
+  font-size: 3rem;
 }
-.keys p{
-    font-size: 1.5rem;
+.keys h2 {
+  font-size: 3rem;
 }
-.playing{
-    transform: scale(1.1);
-    border-color: red;
-    box-shadow: 0 0 10px red;
+.keys p {
+  font-size: 1.5rem;
+}
+.playing {
+  transform: scale(1.1);
+  border-color: red;
+  box-shadow: 0 0 10px red;
 }
